@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author claudevandro
+ * @author Marcio
  */
 @WebServlet(name = "TurmaServlet", urlPatterns = {"/Turma"})
 public class TurmaServlet extends HttpServlet {

@@ -74,8 +74,7 @@ public class MatriculaServlet extends HttpServlet {
             break;
             case "eliminarMatricula": {
                 try {
-                    eliminarMatricula(request, response);
-                    //response.sendRedirect("Matriculas");
+                    eliminarMatricula(request, response);                   
                 } catch (SQLException ex) {
                     Logger.getLogger(MatriculaServlet.class.getName()).log(Level.SEVERE, null, ex);
                 }
