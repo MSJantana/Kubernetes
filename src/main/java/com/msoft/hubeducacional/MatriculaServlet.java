@@ -80,6 +80,13 @@ public class MatriculaServlet extends HttpServlet {
                 }
                 break;
             }
+            case "create" : {
+            try {
+                criarMatricula(request, response);
+            } catch (SQLException ex) {
+                Logger.getLogger(MatriculaServlet.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            }
             default:
                 break;
         }
@@ -90,22 +97,7 @@ public class MatriculaServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         doGet(request, response);
-        /*try {
-            
-            Matricula matricula = new Matricula();
-            matricula.getTurma().setTurm_idturma(Integer.parseInt(request.getParameter("turma")));
-            matricula.getPessoa().setPes_IdPessoa(Integer.parseInt(request.getParameter("pessoa")));
-            matricula.getCurso().setCur_idCurso(Integer.parseInt(request.getParameter("curso")));
-            matricula.getFuncao().setFunc_idFuncao(Integer.parseInt(request.getParameter("funcao")));
-            if (request.getParameter("professor") != null) {
-                matricula.getProfessor().setProf_idprofessor(Integer.parseInt(request.getParameter("professor")));
-            }
-            matricula.getUnidade().setUni_idUnidade(Integer.parseInt(request.getParameter("unidade")));
-            dao.insertMatricula(matricula);
-            response.sendRedirect("Matricula");
-        } catch (SQLException e) {
-            throw new ServletException("Erro ao inserir matrícula: " + e.getMessage());
-        }*/
+        
     }
 
     private void processaComboBox(HttpServletRequest request) throws ServletException {
@@ -135,6 +127,25 @@ public class MatriculaServlet extends HttpServlet {
         } else {
             throw new ServletException("Erro ao Excluir matrícula: " + p);
 
+        }
+    }
+    
+    private void criarMatricula(HttpServletRequest request, HttpServletResponse response) throws IOException, SQLException, ServletException {
+        try {
+            
+            Matricula matricula = new Matricula();
+            matricula.getTurma().setTurm_idturma(Integer.parseInt(request.getParameter("turma")));
+            matricula.getPessoa().setPes_IdPessoa(Integer.parseInt(request.getParameter("pessoa")));
+            matricula.getCurso().setCur_idCurso(Integer.parseInt(request.getParameter("curso")));
+            matricula.getFuncao().setFunc_idFuncao(Integer.parseInt(request.getParameter("funcao")));
+            if (request.getParameter("professor") != null) {
+                matricula.getProfessor().setProf_idprofessor(Integer.parseInt(request.getParameter("professor")));
+            }
+            matricula.getUnidade().setUni_idUnidade(Integer.parseInt(request.getParameter("unidade")));
+            dao.insertMatricula(matricula);
+            response.sendRedirect("Matricula");
+        } catch (SQLException e) {
+            throw new ServletException("Erro ao inserir matrícula: " + e.getMessage());
         }
     }
 
