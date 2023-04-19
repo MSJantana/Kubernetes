@@ -144,6 +144,7 @@ public class MatriculaServlet extends HttpServlet {
             matricula.getUnidade().setUni_idUnidade(Integer.parseInt(request.getParameter("unidade")));
             dao.insertMatricula(matricula);
             response.sendRedirect("Matricula");
+            System.out.println("POST - CADASTRAR MATRICULA");
         } catch (SQLException e) {
             throw new ServletException("Erro ao inserir matrícula: " + e.getMessage());
         }

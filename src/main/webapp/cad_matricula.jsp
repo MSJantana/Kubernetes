@@ -142,7 +142,7 @@
                             <form action="Matricula">      
 
                                 <div class="form-group">
-                                    <select class="form-control selectpicker" aria-label=".form-select-sm example" name="turm_turma">
+                                    <select class="form-control selectpicker" aria-label=".form-select-sm example" name="turm_turma" id="turma">
                                         <option selected>Selecione a Turma</option>
                                         <c:forEach items="${listaDeTurma}" var="turma">
                                             <option value="${turma.turm_idturma}">${turma.turm_turma}</option>
@@ -151,7 +151,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <select class="form-control selectpicker" aria-label=".form-select-sm example" name="pes_IdPessoa">
+                                    <select class="form-control selectpicker" aria-label=".form-select-sm example" name="pes_IdPessoa" id="pessoa">
                                         <option selected>Selecione nome do Aluno</option>
                                         <c:forEach items="${listaDePessoa}" var="pessoa">
                                             <option value="${pessoa.pes_IdPessoa}">${pessoa.pes_nome}</option>
@@ -160,7 +160,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <select class="form-control selectpicker" aria-label=".form-select-sm example" name="cur_idCurso">
+                                    <select class="form-control selectpicker" aria-label=".form-select-sm example" name="cur_idCurso" id="curso">
                                         <option selected>Selecione o Curso</option>
                                         <c:forEach items="${listaDeCursos}" var="curso">
                                             <option value="${curso.cur_idCurso}">${curso.cur_descricao}</option>
@@ -169,7 +169,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <select class="form-control selectpicker" aria-label=".form-select-sm example" name="func_idFuncao">
+                                    <select class="form-control selectpicker" aria-label=".form-select-sm example" name="func_idFuncao" id="funcao">
                                         <option selected>Selecione a Função</option>
                                         <c:forEach items="${listaDeFuncao}" var="funcao">
                                             <option value="${funcao.func_idFuncao}">${funcao.func_nome}</option>
@@ -178,7 +178,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <select class="form-control selectpicker" aria-label=".form-select-sm example" name="prof_idprofessor">
+                                    <select class="form-control selectpicker" aria-label=".form-select-sm example" name="prof_idprofessor" id="professor">
                                         <option selected>Selecione o Professor</option>
                                         <c:forEach items="${listaDeProfessor}" var="professor">
                                             <option value="${professor.prof_idprofessor}">${professor.prof_nome}</option>
@@ -187,7 +187,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <select class="form-control selectpicker" aria-label=".form-select-sm example" name="uni_idUnidade">
+                                    <select class="form-control selectpicker" aria-label=".form-select-sm example" name="uni_idUnidade" id="unidade">
                                         <option selected>Selecione a Unidade</option>
                                         <c:forEach items="${listaDeUnidade}" var="unidade">
                                             <option value="${unidade.uni_idUnidade}">${unidade.uni_nomeUnidade}</option>
