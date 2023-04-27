@@ -50,7 +50,6 @@
                         <ul class="dropdown-menu">
                             <li><a href="Matriculas">Matricula<span class="sr-only">(current)</span></a></li>
                             <li><a href="#">Lançar Nota</a></li>
-                            
                         </ul>
                     </li>
                     <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Secretaria</a>

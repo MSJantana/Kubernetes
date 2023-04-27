@@ -132,7 +132,7 @@ public class MatriculaServlet extends HttpServlet {
     
     private void criarMatricula(HttpServletRequest request, HttpServletResponse response) throws IOException, SQLException, ServletException {
         try {
-            
+    
             Matricula matricula = new Matricula();
             matricula.getTurma().setTurm_idturma(Integer.parseInt(request.getParameter("turma")));
             matricula.getPessoa().setPes_IdPessoa(Integer.parseInt(request.getParameter("pessoa")));
