@@ -42,12 +42,8 @@
                     <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Aluno</a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Disciplina<span class="sr-only">(current)</span></a></li>
-                            <li><a href="#">Funcionário</a></li>
-                            <li><a href="#">Something</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Função</a></li>
+                                <li><a href="#">Boletim</a></li>
+                                <li><a href="#">Serviço</a></li>
                         </ul>
                     </li>
                     <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Professor</a>

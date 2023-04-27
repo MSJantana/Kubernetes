@@ -41,16 +41,16 @@
                         <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Aluno</a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Disciplina<span class="sr-only">(current)</span></a></li>
-                                <li><a href="#">Lançar Nota</a></li>
-                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Boletim</a></li>
+                                <li><a href="#">Serviço</a></li>
                            
                             </ul>
                         </li>
                         <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Professor</a>
                             <ul class="dropdown-menu">
                                 <li><a href="Matriculas">Matricula<span class="sr-only">(current)</span></a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Lançar Nota</a></li>
+                                <li><a href="#">Consultar Diário</a></li>
                              
                             </ul>
                         </li>
