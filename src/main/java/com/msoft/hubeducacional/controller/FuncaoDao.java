@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
  *
- * @author claudevandro
+ * @author Marcio
  */
 public class FuncaoDao {
 
