@@ -7,7 +7,6 @@ package com.msoft.hubeducacional;
 import com.msoft.hubeducacional.controller.UnidadeDao;
 import com.msoft.hubeducacional.model.Unidade;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;

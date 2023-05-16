@@ -7,7 +7,6 @@ package com.msoft.hubeducacional;
 import com.msoft.hubeducacional.controller.FuncaoDao;
 import com.msoft.hubeducacional.model.Funcao;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.logging.Level;
