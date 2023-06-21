@@ -99,7 +99,7 @@ public class MatriculaServlet extends HttpServlet {
 
     }
 
-    private void processaComboBox(HttpServletRequest request) throws ServletException {
+    private void processaComboBox(HttpServletRequest request) {
         List<Turma> turmas = turmaDao.procurarTodasTurmas();
         request.setAttribute("listaDeTurma", turmas);
         List<Pessoa> pessoas = pessoaDao.procurarTodosPessoas();
