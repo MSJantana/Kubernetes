@@ -68,7 +68,6 @@
                                 <li><a href="Funcao">Função</a></li>
                             </ul>
                         </li>
-                        <!-- comment <li><a class="nav-link" href="Curso">Cursos <span class="sr-only">(current)</span></a><li>-->
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="register.jsp"><span class="glyphicon glyphicon-user"></span> Registrar Usuário</a></li>
@@ -104,7 +103,6 @@
                 <tbody>
                     <c:forEach var="matricula" items="${matriculas}">
                         <tr> 
-                            <!--<td>${matricula.mat_idMatricula}</td>-->
                             <td>${matricula.turma.turm_turma}</td>
                             <td>${matricula.pessoa.pes_nome}</td>
                             <td>${matricula.professor.prof_nome}</td>
@@ -211,8 +209,6 @@
         </div>
         <!-- Fim do Modal Create -->
 
-
-    </script>
     <script src="js/sweetalert.js" type="text/javascript"></script>
     <script src="js/funcaoMatricula.js" type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">

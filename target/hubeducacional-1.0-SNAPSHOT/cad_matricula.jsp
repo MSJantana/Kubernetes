@@ -22,7 +22,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <!-- JavaScript Bundle with Popper--> 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>    
-        <script src="https://kit.fontawesome.com/26148a0259.js" crossorigin="anonymous"></script>
+        <scrip src="https://kit.fontawesome.com/26148a0259.js" crossorigin="anonymous"></script>
         <link rel="shortcut icon" href="images/favicon.ico">
         <!-- Main css -->
         <link rel="stylesheet" href="fonts/material-icon/css/style_curso.css">
@@ -211,8 +211,6 @@
         </div>
         <!-- Fim do Modal Create -->
 
-
-    </script>
     <script src="js/sweetalert.js" type="text/javascript"></script>
     <script src="js/funcaoMatricula.js" type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
