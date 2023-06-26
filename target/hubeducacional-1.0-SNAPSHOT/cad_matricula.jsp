@@ -22,7 +22,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <!-- JavaScript Bundle with Popper--> 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>    
-        <scrip src="https://kit.fontawesome.com/26148a0259.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/26148a0259.js" crossorigin="anonymous"></script>
         <link rel="shortcut icon" href="images/favicon.ico">
         <!-- Main css -->
         <link rel="stylesheet" href="fonts/material-icon/css/style_curso.css">
@@ -68,7 +68,6 @@
                                 <li><a href="Funcao">Função</a></li>
                             </ul>
                         </li>
-                        <!-- comment <li><a class="nav-link" href="Curso">Cursos <span class="sr-only">(current)</span></a><li>-->
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="register.jsp"><span class="glyphicon glyphicon-user"></span> Registrar Usuário</a></li>
@@ -104,7 +103,6 @@
                 <tbody>
                     <c:forEach var="matricula" items="${matriculas}">
                         <tr> 
-                            <!--<td>${matricula.mat_idMatricula}</td>-->
                             <td>${matricula.turma.turm_turma}</td>
                             <td>${matricula.pessoa.pes_nome}</td>
                             <td>${matricula.professor.prof_nome}</td>
