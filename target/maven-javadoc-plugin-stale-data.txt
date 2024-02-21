@@ -1,0 +1,68 @@
+@options
+@packages
+-classpath
+'/Users/claudevandro/.m2/repository/org/apache/maven/plugins/maven-deploy-plugin/3.1.1/maven-deploy-plugin-3.1.1.jar:/Users/claudevandro/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar:/Users/claudevandro/.m2/repository/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar:/Users/claudevandro/.m2/repository/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar:/Users/claudevandro/.m2/repository/javax/javaee-web-api/8.0.1/javaee-web-api-8.0.1.jar:/Users/claudevandro/.m2/repository/org/apache/maven/plugins/maven-enforcer-plugin/3.3.0/maven-enforcer-plugin-3.3.0.jar:/Users/claudevandro/.m2/repository/org/apache/maven/enforcer/enforcer-api/3.3.0/enforcer-api-3.3.0.jar:/Users/claudevandro/.m2/repository/org/apache/maven/enforcer/enforcer-rules/3.3.0/enforcer-rules-3.3.0.jar:/Users/claudevandro/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/claudevandro/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/claudevandro/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/claudevandro/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/claudevandro/.m2/repository/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.jar:/Users/claudevandro/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar:/Users/claudevandro/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar:/Users/claudevandro/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar:/Users/claudevandro/.m2/repository/javax/servlet/jsp/jstl/javax.servlet.jsp.jstl-api/1.2.2/javax.servlet.jsp.jstl-api-1.2.2.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/Users/claudevandro/NetBeansProjects/hubeducacional/src/main/java:/Users/claudevandro/NetBeansProjects/hubeducacional/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'hubeducacional 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/claudevandro/NetBeansProjects/hubeducacional/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'hubeducacional 1.0-SNAPSHOT API'
+com.msoft.hubeducacional
+com.msoft.hubeducacional.controller
+com.msoft.hubeducacional.model
+/Users/claudevandro/.m2/repository/org/apache/maven/plugins/maven-deploy-plugin/3.1.1/maven-deploy-plugin-3.1.1.jar = 1682595150403
+/Users/claudevandro/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar = 1686150071337
+/Users/claudevandro/.m2/repository/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar = 1657228170851
+/Users/claudevandro/.m2/repository/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar = 1657049290197
+/Users/claudevandro/.m2/repository/javax/javaee-web-api/8.0.1/javaee-web-api-8.0.1.jar = 1686155807981
+/Users/claudevandro/.m2/repository/org/apache/maven/plugins/maven-enforcer-plugin/3.3.0/maven-enforcer-plugin-3.3.0.jar = 1686150071249
+/Users/claudevandro/.m2/repository/org/apache/maven/enforcer/enforcer-api/3.3.0/enforcer-api-3.3.0.jar = 1686150071265
+/Users/claudevandro/.m2/repository/org/apache/maven/enforcer/enforcer-rules/3.3.0/enforcer-rules-3.3.0.jar = 1686150071323
+/Users/claudevandro/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar = 1657228172646
+/Users/claudevandro/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar = 1686150071338
+/Users/claudevandro/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar = 1657049305622
+/Users/claudevandro/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar = 1686150071373
+/Users/claudevandro/.m2/repository/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.jar = 1661864566759
+/Users/claudevandro/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar = 1661864566909
+/Users/claudevandro/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar = 1661863978549
+/Users/claudevandro/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar = 1662120325905
+/Users/claudevandro/.m2/repository/javax/servlet/jsp/jstl/javax.servlet.jsp.jstl-api/1.2.2/javax.servlet.jsp.jstl-api-1.2.2.jar = 1686156483703
+/Users/claudevandro/NetBeansProjects/hubeducacional/src/main/java/.DS_Store = 1687881633157
+/Users/claudevandro/NetBeansProjects/hubeducacional/src/main/java = 1687881633156
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/generated-sources/annotations = 1689272867917
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/tag-search-index.js = 1689272873771
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/overview-tree.html = 1689272873724
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/module-search-index.js = 1689272873769
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/index.html = 1689272873728
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/package-search-index.js = 1689272873769
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/jquery-ui.overrides.css = 1689272873840
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/serialized-form.html = 1689272873624
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/index-all.html = 1689272873816
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/allpackages-index.html = 1689272873768
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/member-search-index.js = 1689272873771
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/copy.svg = 1689272873826
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/script.js = 1689272873825
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/stylesheet.css = 1689272873825
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/overview-summary.html = 1689272873818
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/help-doc.html = 1689272873822
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/element-list = 1689272873567
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/allclasses-index.html = 1689272873766
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/type-search-index.js = 1689272873770
+/Users/claudevandro/NetBeansProjects/hubeducacional/target/apidocs/search.js = 1689272873827
